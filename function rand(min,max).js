@@ -7,7 +7,7 @@ class ClonningObjects {
         name: 'ClonningObjects',
         blocks: [
           {
-            opcode: 'ClonningObjects2',
+            opcode: 'ClonningObjects',
             blockType: Scratch.BlockType.BOOLEAN,
             text: 'random: max[ONE]',
             arguments: {
@@ -23,7 +23,7 @@ class ClonningObjects {
         
       };
     }
-    ClonningObjects2(args) {
+    ClonningObjects(args) {
       return random(args.ONE);
     }
   }
